@@ -1,0 +1,29 @@
+body {
+  background: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.addr {
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.req,
+.ts {
+  background: lightgray;
+}
+
+.req,
+.resp {
+  font-family: monospace;
+}
+
+.panel-data-cols {
+  grid-template-columns: min-content 1fr;
+}
